@@ -1,0 +1,407 @@
+p {
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.leftTopBar {
+    background: #4e5253;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding-left: 1rem;
+    color: #f9b320;
+    display: flex;
+}
+
+#offline {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+}
+
+.noProduct {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.noProduct i {
+    color: red;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 5px 4px !important;
+}
+
+#myTable_wrapper {
+    padding: 0.5rem !important;
+}
+
+.shop {
+    color: #299e71;
+}
+
+.leftText {
+    padding-left: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.leftLogo {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.leftLogo img {
+    width: 200px;
+}
+
+.leftCamera select {
+    margin-top: 0.6rem;
+    width: auto;
+    margin-left: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.rightCamera {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preview {
+    width: 650px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+}
+
+#bttn {
+    background: #2164ae;
+    border: #2164ae;
+    padding: 5px 16px;
+    border-radius: 3px;
+    color: white;
+}
+
+#bttnW {
+    background: #3b9f73;
+    border: #3b9f73;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+.leftCameras {
+    margin-left: 0.9rem;
+}
+
+.rightTopBar {
+    height: 80px;
+}
+
+.rightTopBar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #2c2e30;
+    color: white;
+    position: relative;
+}
+
+.rightTopBar i {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.rightTopBar span {
+    color: #f9b320;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rightTopBar h5 {
+    font-size: 17px;
+}
+
+.logout {
+    position: absolute;
+    right: 24px;
+    background: #299e71;
+    width: 150px;
+    padding: 9px 15px;
+    border-radius: 3px 16px 3px 3px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.users:hover~.logout {
+    opacity: 1;
+}
+
+.logout:hover {
+    opacity: 1;
+}
+
+.logout p {
+    cursor: pointer;
+}
+
+.users {
+    padding-left: 15px;
+}
+
+#preview {
+    transform: scaleX(1) !important;
+}
+
+.bttnClick {
+    margin-bottom: 0.5rem;
+}
+
+.formReg {
+    background-color: white;
+    width: 615px;
+    height: 415px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formProduct {
+    background-color: white;
+    width: 615px;
+    height: 481px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.regContent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginTopBar {
+    text-align: center;
+}
+
+.loginTopBar img {
+    width: 290px;
+    padding: 2rem;
+}
+
+.regMid form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regInput {
+    width: 260px !important;
+    padding: 8px !important;
+    margin: 6px !important;
+}
+
+.regBtn {
+    background: #0065b0;
+    border: #0065b0;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.regBottom {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.regBottom a {
+    display: flex;
+    align-items: center;
+}
+
+.regBottom a p {
+    padding-left: 10px;
+}
+
+.regBottom a i {
+    color: #fd5a00;
+}
+
+#myTable_2 td.sorting_1,
+#myTable_2 td,
+#myTable_2 th {
+    color: white !important;
+}
+
+a#myTable_2_next {
+    color: white !important;
+}
+
+#myTable_2_wrapper {
+    width: 85% !important;
+}
+
+#myTable_2_wrapper .dataTables_length {
+    color: white !important;
+}
+
+div#myTable_2_filter {
+    color: white;
+}
+
+div#myTable_2_info {
+    color: white;
+}
+
+a#myTable_2_previous {
+    color: white !important;
+}
+
+#myTable_2_length label select {
+    color: white !important;
+}
+
+div#myTable_2_paginate a.paginate_button.current {
+    color: white !important;
+}
+
+div#myTable_2_filter input {
+    color: white !important;
+}
+#myTable_2_wrapper .dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: white !important;
+}
+
+.rightTable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formS {
+    display: flex;
+}
+
+.qr-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.qrImg {
+    width: 120px;
+}
+
+.qr-code-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnLeft {
+    margin-left: 1rem;
+}
+
+.btnSubmit {
+    margin-top: 1rem;
+}
+
+.btnSubmit i {
+    padding-left: 7px;
+}
+
+@media only screen and (min-width:767px) {
+    html {
+        overflow: hidden !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #preview {
+        width: 90% !important;
+        height: 70% !important;
+    }
+
+
+    table.dataTable tbody td {
+        text-align: center !important;
+    }
+
+    #myTable_2_wrapper {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .mobTable {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .rightTable {
+        height: 100% !important;
+    }
+
+    .rightCamera {
+        height: 91% !important;
+    }
+
+    .mobCols {
+        height: 140vh !important;
+    }
+
+    .mobCols2 {
+        height: 100vh !important;
+    }
+
+    .regInput {
+        width: 160px !important;
+        padding: 8px !important;
+        margin: 6px !important;
+    }
+
+    .regMid form {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .formReg {
+        width: 90% !important;
+        height: 415px !important;
+    }
+
+    .mobNon {
+        display: none !important;
+    }
+}
